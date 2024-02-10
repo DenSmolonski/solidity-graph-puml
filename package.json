@@ -1,0 +1,21 @@
+{
+  "name": "solidity-graph-puml",
+  "version": "1.0.0",
+  "description": "Generates PlantUML class diagrams from Solidity source code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solidity",
+    "plantuml",
+    "diagram",
+    "class"
+  ],
+  "author": "Dzianis Smalonski",
+  "license": "MIT",
+  "dependencies": {
+    "@solidity-parser/parser": "^0.18.0",
+    "commander": "^12.0.0"
+  }
+}
